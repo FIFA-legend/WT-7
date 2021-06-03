@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background: white;
+}
+
+header {
+    height: 20%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-container {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.error_message {
+    color: red;
+}
